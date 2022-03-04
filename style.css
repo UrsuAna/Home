@@ -1,0 +1,180 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: "Times New Roman", sans-serif;
+}
+
+body {
+    background: #696969;
+    font-size: 14px;
+    line-height: 22px;
+    color: #555555;
+}
+
+.bold {
+    font-weight: 900;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.semi-bold {
+    font-weight: 500;
+    font-size: 16px;
+}
+/*  ppagina despre mine*/
+
+.resume {
+    width: 670px;
+    height: auto;
+    display: flex;
+    margin: 100px auto;
+}
+/*  pagina de info personala */
+
+.resume .resume_left {
+    width: 350px;
+    background: #008B8B;
+}
+/*  pagina de profil */
+.resume .resume_left .resume_profile {
+    width: 100%;
+    height: 280px;
+}
+/*  imaginea */
+
+.resume .resume_left .resume_profile img {
+    width: 100%;
+    height: 100%;
+}
+/*  alinierea scrisului */
+
+.resume .resume_left .resume_content {
+    padding: 0 20px;
+}
+/*  distanta intre scrisuri */
+
+.resume .title {
+    margin-bottom: 30px;
+}
+/*  culoarea categoriilo, personal,ablilitati, social */
+
+.resume .resume_left .bold {
+    color: #fff;
+}
+/* liniile de despartire */
+
+.resume .resume_item {
+    padding: 40px 0;
+    border-bottom: 2px solid #b1eaff;
+}
+
+.resume .resume_left .resume_item:last-child,
+.resume .resume_right .resume_item:last-child {
+    border-bottom: 40px;
+}
+/* social aranjare */
+
+.resume .resume_left ul li {
+    display: flex;
+    margin-bottom: 5px;
+    align-items: left;
+}
+/* facebook */
+
+.resume .resume_left ul li .icon {
+    width: 35px;
+    height: 35px;
+    background: #fff;
+    color: #0bb5f4;
+    border-radius: 50%;
+    margin-right: 15px;
+    font-size: 16px;
+    position: relative;
+}
+.resume .icon i,
+.resume .resume_right .resume_hobby ul li i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/* detaliile scrisului  */
+
+.resume .resume_left ul li .data {
+    color: #F0F8FF;
+}
+/* microsoft */
+
+.resume .resume_left .resume_skills ul li {
+    display: flex;
+    margin-bottom: 50px;
+    color: #F0F8FF;
+    justify-content: space-between;
+    align-items: center;
+}
+/* despartire */
+
+.resume .resume_left .resume_skills ul li .skill_name {
+    width: 30%;
+}
+
+.resume .resume_left .resume_skills ul li .skill_progress {
+    /* despartire % */
+
+    width: 60%;
+    margin: 0 5px;
+    height: 5px;
+    background: #009fd9;
+    position: relative;
+}
+
+.resume .resume_left .resume_skills ul li .skill_per {
+    width: 15%;
+}
+
+.resume .resume_left .resume_skills ul li .skill_progress span {
+    /*  % */
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #fff;
+}
+
+/*  partea a 2-a a cv-ului */
+
+.resume .resume_right {
+    width: 540px;
+    background: #fff;
+    padding: 25px;
+}
+/*  culoarea scrisului principal */
+
+.resume .resume_right .bold {
+    color: #0bb5f4;
+}
+
+
+
+/*  anii  */
+
+.resume .resume_right ul li .date {
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+/*  distanta */
+
+.resume .resume_right ul li .info {
+    margin-bottom: 20px;
+}
+
+
+
+.resume .resume_right .resume_hobby ul li:last-child:before {
+    display: none;
+}
