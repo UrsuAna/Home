@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Flag</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <div class="main">
+        <div class="container">
+            <div class="title">
+                <p id="rezultat">Flag</p>
+            </div>
+            <div class="coloana1">
+                <div class="poza1">
+                    <img src="moldova.png" id="img1" class="img1 active">
+                </div>
+                <div class="checkbox1">
+                    <input data-rgb='4px solid rgba(255, 0, 0, 0)' type="radio" name="tari_col1" value ="Moldova" data-value="moldova.png" checked>Moldova
+                    <input data-rgb='4px solid rgba(255, 0, 0, 0.25)' type="radio" name="tari_col1" value ="Romania" data-value="romania.png">Romania
+                    <input data-rgb='4px solid rgba(255, 0, 0, 0.5)' type="radio" name="tari_col1" value ="Ucraina" data-value="ucraina.png">Ucraina
+                    <input data-rgb='4px solid rgba(255, 0, 0, 0.75)' type="radio" name="tari_col1" value ="Germania" data-value="germania.png">Germania
+                    <input data-rgb='4px solid rgba(255, 0, 0, 1)' type="radio" name="tari_col1" value ="Anglia" data-value="anlgia.png">Anglia
+                </div>
+            </div>
+            <div class="coloana2">
+                <div class="poza2">
+                    <img src="franta.png" id="img2" class="img2 active">
+                </div>
+                <div class="checkbox2">
+                    <input data-rgb='4px solid rgba(0, 255, 0, 0)' type="radio" name="tari_col2" value ="Franta" data-value="franta.webp" checked>Franta
+                    <input data-rgb='4px solid rgba(0, 255, 0, 0.25)' type="radio" name="tari_col2" value ="Spania" data-value="spania.png">Spania
+                    <input data-rgb='4px solid rgba(0, 255, 0, 0.5)' type="radio" name="tari_col2" value ="Italia" data-value="italia.jpg">Italia
+                    <input data-rgb='4px solid rgba(0, 255, 0, 0.75)' type="radio" name="tari_col2" value ="Danemarca" data-value="danemarca.png">Danemarca
+                    <input data-rgb='4px solid rgba(0, 255, 0, 1)' type="radio" name="tari_col2" value ="Austria" data-value="austria.png">Austria
+                </div>
+            </div>
+            <div class="coloana3">
+                <div class="poza3">
+                    <img src="suedia.png" id="img3" class="img3 active">
+                </div>
+                <div class="checkbox3">
+                    <input data-rgb='4px solid rgba(0, 0, 255, 0)' type="radio" name="tari_col3" value ="Suedia" data-value="suedia.png" checked>Suedia
+                    <input data-rgb='4px solid rgba(0, 0, 255, 0.25)' type="radio" name="tari_col3" value ="America" data-value="america.png">America
+                    <input data-rgb='4px solid rgba(0, 0, 255, 0.5)' type="radio" name="tari_col3" value ="Mexic" data-value="mexic.png">Mexic
+                    <input data-rgb='4px solid rgba(0, 0, 255, 0.75)' type="radio" name="tari_col3" value ="Portugalia" data-value="portugalia.png">Portugalia
+                    <input data-rgb='4px solid rgba(0, 0, 255, 1)' type="radio" name="tari_col3" value ="Cehia" data-value="cehia.png">Cehia
+                </div>
+            </div>
+        </div>
+        <input type="button" id="check" value="Clear" onclick="window.location.reload()">
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
